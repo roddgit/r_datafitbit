@@ -1,8 +1,8 @@
 library(RMariaDB)
 con <- dbConnect(drv = MariaDB(), 
-                 host = "sv.rodd-it.my.id",
-                 port = 6033,
+                 host = "localhost",
+                 port = 3306,
                  dbname = "fitbit", 
                  user = "root", 
-                 password = "My5qL_p455Word%%%")
+                 password = "")
 # con
